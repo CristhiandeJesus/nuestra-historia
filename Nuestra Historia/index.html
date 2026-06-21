@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nuestra Historia 💚</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--green:#1f4d3d;
+--green2:#355f4c;
+--gold:#d4af37;
+--cream:#f7f1e8;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+background:var(--cream);
+font-family:'Cormorant Garamond',serif;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('portada.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content h1{
+font-family:'Great Vibes',cursive;
+font-size:6rem;
+}
+
+.hero-content h2{
+font-size:2rem;
+margin-top:10px;
+font-weight:300;
+}
+
+.hero-content p{
+font-size:1.3rem;
+margin-top:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 35px;
+background:var(--gold);
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.section{
+padding:100px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:3rem;
+color:var(--green);
+margin-bottom:50px;
+}
+
+.timeline-item{
+margin-bottom:90px;
+text-align:center;
+}
+
+.timeline-item img{
+width:100%;
+max-width:650px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.timeline-item p{
+font-size:1.8rem;
+margin-top:25px;
+color:var(--green);
+font-style:italic;
+}
+
+.counter{
+background:var(--green);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.counter h2{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+#count{
+font-size:2rem;
+}
+
+.envelope{
+display:flex;
+justify-content:center;
+padding:100px 20px;
+}
+
+.envelope button{
+background:var(--gold);
+border:none;
+padding:20px 40px;
+font-size:1.3rem;
+cursor:pointer;
+border-radius:15px;
+}
+
+.letter{
+display:none;
+max-width:900px;
+margin:auto;
+background:white;
+padding:50px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+line-height:1.9;
+font-size:1.3rem;
+}
+
+.letter h2{
+font-family:'Great Vibes',cursive;
+font-size:4rem;
+text-align:center;
+color:var(--green);
+margin-bottom:30px;
+}
+
+.signature{
+text-align:center;
+margin-top:50px;
+font-family:'Great Vibes',cursive;
+font-size:3rem;
+color:var(--green);
+}
+
+.footer{
+text-align:center;
+padding:100px 20px;
+background:var(--green);
+color:white;
+}
+
+.footer h2{
+font-family:'Great Vibes',cursive;
+font-size:4rem;
+}
+
+.petals{
+position:fixed;
+top:-10px;
+color:#d4af37;
+font-size:20px;
+animation:fall linear infinite;
+pointer-events:none;
+}
+
+@keyframes fall{
+to{
+transform:translateY(110vh) rotate(360deg);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<audio autoplay loop>
+<source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Cristhian & Sandy</h1>
+
+<h2>Nuestra Historia</h2>
+
+<p>
+Desde el 21 de octubre de 2024 ❤️
+</p>
+
+<a href="#inicio" class="btn">
+Comenzar nuestro viaje
+</a>
+
+</div>
+
+</section>
+
+<section class="counter" id="inicio">
+
+<h2>Tiempo juntos</h2>
+
+<div id="count"></div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Nuestra Historia
+</h2>
+
+<div class="timeline-item">
+<img src="foto1.jpg">
+<p>"Sin darme cuenta, cada paso me llevaba hacia ti."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto2.jpg">
+<p>"Incluso en los días más ocupados, siempre encontré tiempo para pensar en ti."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto3.jpg">
+<p>"Tus abrazos siempre han sido mi lugar favorito."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto4.jpg">
+<p>"Hay besos que duran segundos y recuerdos que duran para siempre."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto5.jpg">
+<p>"Mi amor, sigues siendo mi lugar seguro."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto6.jpg">
+<p>"Los momentos simples contigo son mis favoritos."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto7.jpg">
+<p>"Gracias por cada sonrisa que me regalas."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto8.jpg">
+<p>"Hay fotografías que capturan momentos. Tú capturas mi atención cada día."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto9.jpg">
+<p>"Y cada vez que te veo, vuelvo a enamorarme un poquito más."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto10.jpg">
+<p>"Porque incluso los detalles más pequeños me recuerdan a ti."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto11.jpg">
+<p>"Y de pronto ya estábamos celebrando una historia que quiero seguir escribiendo."</p>
+</div>
+
+<div class="timeline-item">
+<img src="foto12.jpg">
+<p>"Mi capítulo favorito siempre será aquel en el que apareces tú."</p>
+</div>
+
+</section>
+
+<div class="envelope">
+<button onclick="abrirCarta()">
+💌 Abrir Carta
+</button>
+</div>
+
+<div class="letter" id="carta">
+
+<h2>Para Sandy</h2>
+
+<p>
+Mi amor, esta no es solo una colección de fotografías.
+Es una pequeña parte de nuestra historia, de los momentos que hemos compartido y de todo lo que significas para mí.
+</p>
+
+<p>
+Hoy cumplimos 1 año y 8 meses juntos, y mientras pensaba en escribirte, me di cuenta de algo: soy afortunado de que nuestra historia haya comenzado incluso antes de que oficialmente estuviéramos juntos. No sé si he sido el novio que esperabas encontrar o si me he convertido en alguien diferente a lo que imaginabas. A lo largo de nuestra historia me has presentado personajes que admiras, como Nick de Heartstopper o Peter Kavinsky de *A todos los chicos de los que me enamoré*. Aunque admito que algunas de sus acciones son un poquito tóxicas, jajaja. También recuerdo a ese chico de la película del baile de graduación que aprendió hasta los detalles más pequeños de la persona que amaba para invitarla de una forma especial. Y creo que, de alguna manera, cada vez que me hablas de ellos, me haces pensar. A veces intento imitar algunas de esas acciones o aprender de ellas, porque me gustaría ser para ti alguien especial, alguien que te haga sentir enamorada y admirada, como esos personajes que tanto te gustan. Me gustaría ser tu personaje favorito, pero uno real, con errores y virtudes, que cada día intenta ser mejor para ti. También admito que tengo defectos muy marcados. Soy olvidadizo. Antes anotaba muchas cosas que te gustaban y ahora, desde que vivimos juntos, termino anotando más las cosas que no te gustan. Tal vez porque doy por hecho que conozco tus gustos y que puedo recordarlos sin esfuerzo. La verdad es que ni siquiera he logrado memorizar toda la lista que llevo escrita, pero quiero esforzarme más. Quiero seguir creciendo y convertirme en una mejor versión de mí mismo. Quiero ser mejor que aquel Cristhian de hace 1 año y 8 meses. Mejor que el chico que se enamoró de ti y que hizo todo lo posible hasta que aceptaste ser su novia. No porque aquel chico fuera malo, sino porque tú me inspiras a seguir mejorando. Hoy te escribo esta carta virtual porque este mes estamos lejos el uno del otro. Me habría gustado poder abrazarte, verte sonreír y celebrar juntos. Pero espero que los próximos meses podamos crear planes, ideas y recuerdos en persona para festejar cada momento que compartimos. También quiero que sepas que siempre me gusta escuchar tu opinión sobre las cosas que hago para ti. Sobre las cartas que te escribo, los mensajes que te envío o cualquier detalle que intento tener contigo. Me hace feliz cuando me dices qué piensas, porque sentir que lees mis palabras y compartes lo que te provocan las vuelve aún más especiales para mí. Con mucho cariño, Cristhian
+</p>
+
+<div class="signature">
+Con mucho cariño,<br>
+Cristhian ❤️
+</div>
+
+</div>
+
+<section class="footer">
+
+<h2>Gracias por estos 20 meses</h2>
+
+<p>
+Y si algún día volviera a empezar desde cero,
+volvería a caminar hacia ti.
+Volvería a elegirte.
+Volvería a enamorarme de ti.
+</p>
+
+</section>
+
+<script>
+
+function abrirCarta(){
+document.getElementById("carta").style.display="block";
+document.getElementById("carta").scrollIntoView({
+behavior:"smooth"
+});
+}
+
+function actualizarContador(){
+
+const inicio = new Date("2024-10-21");
+const ahora = new Date();
+
+const diff = ahora - inicio;
+
+const dias = Math.floor(diff/(1000*60*60*24));
+
+document.getElementById("count").innerHTML =
+dias + " días juntos ❤️";
+}
+
+actualizarContador();
+
+for(let i=0;i<20;i++){
+
+const petal=document.createElement('div');
+
+petal.innerHTML='❀';
+
+petal.classList.add('petals');
+
+petal.style.left=Math.random()*100+'vw';
+
+petal.style.animationDuration=
+(8+Math.random()*10)+'s';
+
+petal.style.opacity=Math.random();
+
+document.body.appendChild(petal);
+
+}
+
+</script>
+
+</body>
+</html>
